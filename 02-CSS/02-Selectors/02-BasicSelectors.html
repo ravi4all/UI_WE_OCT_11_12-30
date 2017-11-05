@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*h1,h2,h3,h4,h5,h6 {
+            color: white;
+        }*/
+        /*#parent_1 {
+            background-color: lightblue;
+        }
+        #parent_2 {
+            background-color: lightcoral;
+        }*/
+        #parent_1, #parent_2 {
+            background-color: lightcoral;
+        }
+        #parent_1 .grandchild {
+            background-color: lightgray;
+        }
+        #parent_1 .child_1 .grandchild {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Basic Selectors</h1>
+   
+   <div id="parent_1" class="div_1">
+      <h2>This is parent div</h2>
+       <div class="child_1 child-3 child_4">
+          <h2>This is child div</h2>
+           <div class="grandchild">
+               <h2>This is grandchild</h2>
+           </div>
+       </div>
+       <div class="child_2">
+          <h2>This is child div</h2>
+           <div class="grandchild">
+               <h2>This is grandchild</h2>
+           </div>
+       </div>
+   </div>
+   <hr>
+   <div id="parent_2">
+      <h2>This is parent div</h2>
+       <div class="child_1">
+          <h2>This is child div</h2>
+           <div class="grandchild">
+               <h2>This is grandchild</h2>
+           </div>
+       </div>
+       <div class="child_2">
+          <h2>This is child div</h2>
+           <div class="grandchild">
+               <h2>This is grandchild</h2>
+           </div>
+       </div>
+   </div>
+    
+</body>
+</html>

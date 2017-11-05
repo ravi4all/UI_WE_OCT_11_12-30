@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #parent p {
+            color: red;
+            font-size: 24px;
+        }
+        #parent > p {
+            color: green;
+        }
+        #parent + h2 {
+            color: red;
+        }
+        #parent ~ h2 {
+            color: red;
+        }
+        h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Advance Selector</h1>
+    
+    <div id="parent">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+        </p>
+        <div class="child_1">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+            </p>
+            <div class="child_2">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore inventore dicta provident aut, dolorum facere earum sint voluptatum suscipit et autem veritatis, odio quisquam, molestias id voluptatibus ducimus corrupti?
+                </p>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas adipisci ullam minus excepturi perspiciatis suscipit ex cupiditate, beatae expedita. Autem, architecto. Error, molestiae, harum. Nobis ab blanditiis voluptas, provident.
+        </p>
+    </div>
+    <hr>
+    <h2>This heading is outside parent div</h2>
+    <h2>This heading is outside parent div</h2>
+    <div>
+        <h2>This heading is outside parent div</h2>
+    </div>
+    <h2>This heading is outside parent div</h2>
+    <h2>This heading is outside parent div</h2>
+</body>
+</html>

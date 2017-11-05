@@ -1,0 +1,28 @@
+body {
+    background-image: url("http://st3.cricketcountry.com/wp-content/uploads/2017/06/Virat-Kohli-12.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div {
+    height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 300px;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("../../images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg");
+}
+#div_2 {
+    background-image: url("../../images/WebImages/chris-hemsworth-thor-2.jpg");
+}
+#div_3 {
+    background-image: url("../../images/WebImages/the-joker-black-white.jpeg");
+}
+#div_4 {
+    background-image: url("../../images/WebImages/thor-the-dark-world-5a.jpg");
+}
+#div_5 {
+    background-image: url("../../images/WebImages/Terminator002.jpg");
+}
