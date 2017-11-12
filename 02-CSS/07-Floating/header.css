@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#header {
+    background-color: lightgray;
+}
+#header .logo {
+    float: left;
+    width: 10%;
+}
+#header .form {
+    padding: 15px 10px;
+    float: right;
+    width: 20%;
+}
+
+#main-nav {
+    float: left;
+    width: 60%;
+}
+#main-nav ul {
+    list-style: none;
+}
+#main-nav ul li {
+    float: left;
+    margin: 0px 10px;
+}
