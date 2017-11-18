@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        h1:before, h1:after {
+            /*content: "-----------";*/
+            content: "";
+            border: 2px solid red;
+            position: absolute;
+            width: 40%;
+            top: 30px;
+        }
+        h1:before {
+            left: 0px;
+        }
+        h1:after {
+            /*content: "-----------";*/
+            right: 0px;
+        }
+        div {
+            height: 300px;
+            width: 300px;
+            /*background-color: red;*/
+            /*border: 20px solid red;*/
+            border-left: 100px solid red;
+            border-bottom: 100px solid green;
+            border-top: 100px solid orange;
+            border-right: 100px solid yellow;
+        }
+        div:after {
+            content: "";
+            /*border: 100px solid blue;*/
+            position: absolute;
+            border-left: 100px solid transparent;
+            /*border-bottom: 100px solid green;*/
+            border-top: 100px solid orange;
+            border-right: 100px solid transparent;
+            left: 500px;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>After Before</h1>
+   
+   <div>
+       
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul li 
+{
+            /*display: inline;*/
+            display: inline-block;
+            background-color: lightcoral;
+            margin: 0px 10px;
+            width: 10%;
+            text-align: center;
+    position: relative;
+        }
+        a {
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+        }
+        /*.div_1 a {
+            display: block;
+        }*/
+
+.dropdown {
+    background-color: lightblue;
+    width: 100%;
+    position: absolute;
+    top: 38px;
+    display: none;
+}
+.dropdown ul li {
+    margin: 0px;
+    width: 100%;
+    display: block;
+    border-top: 1px solid #fff;
+}
+
+ul li a:hover {
+    background-color: lightgray;
+    color: red;
+}
+
+ul li:hover .dropdown {
+    display: block;
+}
