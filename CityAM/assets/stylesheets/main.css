@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #0088C3;
+    position: relative;
+}
+
+#header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#header ul li {
+    display: inline-block;
+}
+
+#header .logo {
+    text-align: center;
+    background-color: #0098DA;
+    width: 16%;
+    padding: 5px 0px;
+}
+#header a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+#header .logo h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#header .dropdown {
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    width: 60%;
+    background-color: #fff;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    display: none;
+}
+#header .category_name {
+    width: 28%;
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+}
+#header .sub-category {
+    position: absolute;
+    right: 0px;
+    width: 70%;
+}
+#header .dropdown .categories ul li{
+    /*background-color: #F5F5F5;*/
+    position: relative;
+    display: block;
+    /*border: 1px solid #CCCCCC;*/
+}
+#header .dropdown li.active .category_name{
+    background-color: #fff;
+    border: none;
+}
+#header .dropdown .categories ul li a {
+    color: #000;
+    font-size: 24px;
+    padding: 10px 15px;
+}
+#header .dropdown .sub-category ul li {
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
+    padding: 15px 0px;
+    margin: 0px 10px;
+    border-bottom: 1px solid grey;
+}
+#header .dropdown .sub-category ul li a {
+    display: inline-block;
+    padding: 0px;
+}
+#header .dropdown li .sub-category {
+    display: none;
+}
+#header .dropdown li.active .sub-category {
+    display: block;
+}
+
+#header .logo:hover .dropdown {
+    display: block;
+}
+
+#header .social-icons {
+    padding: 15px 0px;
+}
+#header .social-icons ul li {
+    font-size: 23px;
+}
+#header .social-icons ul li a {
+    padding: 0px 15px;
+}
+
+#header .search {
+    background-color: #0098DA;
+}
+#header .search a {
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+#main-navigation {
+    width: 50%;
+    margin-left: 120px;
+}
+#main-navigation ul li a{
+    font-size: 20px;
+    padding: 17px 25px;
+}
+#main-navigation ul li a:hover {
+    background-color: #0076AA;
+}
+
+#content {
+    
+}
+
+#main {
+    
+}
+
+#sidebar {
+    
+}
+
+#footer {
+    
+}
